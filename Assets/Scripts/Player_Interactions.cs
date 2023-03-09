@@ -26,6 +26,10 @@ public class Player_Interactions : MonoBehaviour
                 interactable.Interact(transform);
             }
         }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Application.Quit();
+        }
 
     }
 
